@@ -2,7 +2,7 @@
 title: Hello QWER 👋
 description: Start using QWER - Simply Awesome Blog Starter. Built using SvelteKit and Love.
 summary: 🎉 Let's start a brand new awesome blog...
-published: '2022-09-16T22:00:00.000+08:00'
+published: '2023-12-04T16:00:00.000+08:00'
 updated: '2022-09-16T12:00:00.000+08:00'
 cover: ./cover.jpg
 coverStyle: 'TOP'
