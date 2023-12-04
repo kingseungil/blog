@@ -80,6 +80,8 @@ export const UserConfig = {
     swift: 'swift',
     wasm: 'wasm',
     yaml: 'yaml',
+    groovy: 'groovy',
+    properties: 'properties',
     '': '',
   },
 };
