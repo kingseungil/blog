@@ -5,7 +5,7 @@ summary: 🎉 Let's start a brand new awesome blog...
 published: '2023-12-04T16:00:00.000+08:00'
 updated: '2022-09-16T12:00:00.000+08:00'
 cover: ./cover.jpg
-coverStyle: 'TOP'
+coverStyle: 'IN'
 coverCaption: Photo by <a href="https://unsplash.com/@nitishm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nitish Meena</a> on <a href="https://unsplash.com/s/photos/blur?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 tags:
   - ['Hello World', QWER]
