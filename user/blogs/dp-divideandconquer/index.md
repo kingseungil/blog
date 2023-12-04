@@ -28,7 +28,7 @@ cover: https://images.velog.io/images/ho-taek/post/a9c600b5-f7f3-4686-b2b6-0b2b9
 
 > 최대 값 찾기
 
-![문제 이미지](https://github.com/kingseungil/devlog/assets/109774037/c6b07918-5ae7-463a-a9d7-c6cb1d3681c2)
+![문제 이미지](./img_1.png)
 
 <details>
 <summary>최대 값 찾기 코드</summary>
@@ -71,7 +71,7 @@ public static int getMax(int[] arr, int left, int right) {
 > - 문제를 잘게 쪼갤 때, 부분 문제는 중복되어 재활용됨
 >   - 예시 : 피보나치 수열
 >
-> ![피보나치 수열](https://github.com/kingseungil/devlog/assets/109774037/82506dcb-4052-4f6b-836e-a26859f2533b)
+> ![피보나치 수열](./img.png)
 
 
 
@@ -137,7 +137,7 @@ public class Main {
 ### Kadane's Algorithm (카데인 알고리즘)
 > DP의 대표적인 예시 문제로 `최대 부분합 배열 문제`가 있음
 
-![카데인 알고리즘](https://github.com/kingseungil/devlog/assets/109774037/68225d4f-5a8b-4dd8-a34f-e10ff8c9b94e)
+![카데인 알고리즘](./img_2.png)
 [사진출처](https://medium.com/@vdongbin/kadanes-algorithm-%EC%B9%B4%EB%8D%B0%EC%9D%B8-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-acbc8c279f29)
 
 - `최대 부분합 배열 문제`란?
