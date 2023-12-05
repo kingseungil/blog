@@ -17,13 +17,12 @@ code[class*='language-'],
 pre[class*='language-'] {
   color: #393a34;
   font-size: 13px;
-  font-family: "M PLUS 1 Code", "BMJUA";
+  font-family: "M PLUS 1 Code", "BMJUA", serif;
   direction: ltr;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
-  font-size: 0.9em;
   line-height: 1.2em;
 
   -moz-tab-size: 4;
@@ -190,7 +189,6 @@ code[class*='language-css'] {
   pre[class*='language-'],
   code[class*='language-'] {
     color: #d4d4d4;
-    font-size: 13px;
     text-shadow: none;
     font-family: "M PLUS 1 Code", "BMJUA";
     direction: ltr;
