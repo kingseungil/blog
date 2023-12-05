@@ -82,6 +82,7 @@ export const UserConfig = {
     yaml: 'yaml',
     groovy: 'groovy',
     properties: 'properties',
+    json: 'json',
     '': '',
   },
 };
