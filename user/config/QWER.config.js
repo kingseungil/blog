@@ -1,5 +1,5 @@
 export const UserConfig = {
-  DefaultDesktopShowTagFilter: false,
+  DefaultDesktopShowTagFilter: true,
   DefaultCoverStyle: 'IN',
   DefaultTagName: 'tags',
   DefaultPostLanguage: 'Korean',
