@@ -3,7 +3,7 @@ title: Clean Code (시스템)
 description: 클린코드(11장)을 읽고 정리한 글입니다.
 summary: Part 11. 시스템
 published: '2023-12-07T15:00:00.000+08:00'
-updated: '2023-12-07T21:00:00.000+08:00'
+updated: '2023-12-07T15:00:00.000+08:00'
 tags:
   - [클린코드, clean code]
 series_title: (북스터디) 클린 코드

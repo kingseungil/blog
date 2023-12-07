@@ -2,8 +2,8 @@
 title: Clean Code (창발성)
 description: 클린코드(12장)을 읽고 정리한 글입니다.
 summary: Part 12. 창발성
-published: '2023-12-07T15:40:00:00.000+08:00'
-updated: '2023-12-07T21:00:00.000+08:00'
+published: '2023-12-07T15:40:00.000+08:00'
+updated: '2023-12-07T15:40:00.000+08:00'
 tags:
   - [클린코드, clean code]
 series_title: (북스터디) 클린 코드
