@@ -1,0 +1,213 @@
+{
+  "$schema": "https://beta.frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "sveltekit",
+  "frontMatter.preview.host": "http://localhost:5173",
+  "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.content.fmHighlight": true,
+  "frontMatter.content.publicFolder": "/static",
+  "frontMatter.dashboard.mediaSnippet": [
+    "<Figure src=\"{mediaUrl}\" title=\"{caption}\" align=\"center\" class=\"max-w-full\" />"
+  ],
+  "frontMatter.content.supportedFileTypes": [
+    "md",
+    "markdown",
+    "mdx",
+    "svx"
+  ],
+  "frontMatter.content.sorting": [
+    {
+      "title": "Date (asc)",
+      "name": "date",
+      "order": "asc",
+      "type": "date"
+    },
+    {
+      "title": "Date (desc)",
+      "name": "date",
+      "order": "desc",
+      "type": "date"
+    },
+    {
+      "title": "Title (asc)",
+      "name": "title",
+      "order": "asc",
+      "type": "string"
+    },
+    {
+      "title": "Title (desc)",
+      "name": "title",
+      "order": "desc",
+      "type": "string"
+    }
+  ],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "about",
+      "path": "[[workspace]]/user/blogs/about"
+    },
+    {
+      "title": "book-springboot1",
+      "path": "[[workspace]]/user/blogs/book-springboot1"
+    },
+    {
+      "title": "book-springboot10",
+      "path": "[[workspace]]/user/blogs/book-springboot10"
+    },
+    {
+      "title": "book-springboot2",
+      "path": "[[workspace]]/user/blogs/book-springboot2"
+    },
+    {
+      "title": "book-springboot3",
+      "path": "[[workspace]]/user/blogs/book-springboot3"
+    },
+    {
+      "title": "book-springboot4",
+      "path": "[[workspace]]/user/blogs/book-springboot4"
+    },
+    {
+      "title": "book-springboot5",
+      "path": "[[workspace]]/user/blogs/book-springboot5"
+    },
+    {
+      "title": "book-springboot6",
+      "path": "[[workspace]]/user/blogs/book-springboot6"
+    },
+    {
+      "title": "book-springboot7",
+      "path": "[[workspace]]/user/blogs/book-springboot7"
+    },
+    {
+      "title": "book-springboot8",
+      "path": "[[workspace]]/user/blogs/book-springboot8"
+    },
+    {
+      "title": "book-springboot9",
+      "path": "[[workspace]]/user/blogs/book-springboot9"
+    },
+    {
+      "title": "cleancode1",
+      "path": "[[workspace]]/user/blogs/cleancode1"
+    },
+    {
+      "title": "cleancode10",
+      "path": "[[workspace]]/user/blogs/cleancode10"
+    },
+    {
+      "title": "cleancode2",
+      "path": "[[workspace]]/user/blogs/cleancode2"
+    },
+    {
+      "title": "cleancode3",
+      "path": "[[workspace]]/user/blogs/cleancode3"
+    },
+    {
+      "title": "cleancode4",
+      "path": "[[workspace]]/user/blogs/cleancode4"
+    },
+    {
+      "title": "cleancode5",
+      "path": "[[workspace]]/user/blogs/cleancode5"
+    },
+    {
+      "title": "cleancode6",
+      "path": "[[workspace]]/user/blogs/cleancode6"
+    },
+    {
+      "title": "cleancode7",
+      "path": "[[workspace]]/user/blogs/cleancode7"
+    },
+    {
+      "title": "cleancode9",
+      "path": "[[workspace]]/user/blogs/cleancode9"
+    },
+    {
+      "title": "cleancode8",
+      "path": "[[workspace]]/user/blogs/cleancode8"
+    },
+    {
+      "title": "dp-divideandconquer",
+      "path": "[[workspace]]/user/blogs/dp-divideandconquer"
+    },
+    {
+      "title": "jwt",
+      "path": "[[workspace]]/user/blogs/jwt"
+    },
+    {
+      "title": "restful",
+      "path": "[[workspace]]/user/blogs/restful"
+    },
+    {
+      "title": "solid",
+      "path": "[[workspace]]/user/blogs/solid"
+    },
+    {
+      "title": "spring-transaction",
+      "path": "[[workspace]]/user/blogs/spring-transaction"
+    },
+    {
+      "title": "transaction-acid",
+      "path": "[[workspace]]/user/blogs/transaction-acid"
+    },
+    {
+      "title": "two-pointer",
+      "path": "[[workspace]]/user/blogs/two-pointer"
+    }
+  ],
+  "frontMatter.content.draftField": {
+    "name": "draft",
+    "type": "boolean"
+  },
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "blog",
+      "previewPath": "blog",
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Summary",
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "Last modified date",
+          "name": "lastmod",
+          "type": "datetime"
+        },
+        {
+          "title": "Cover",
+          "name": "image",
+          "type": "image",
+          "isPreviewImage": true
+        },
+        {
+          "title": "Series_Title",
+          "name": "series_title",
+          "type": "string"
+        },
+        {
+          "title": "Series_Tag",
+          "name": "series_tag",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "frontMatter.website.host": "https://k-devlog.vercel.app",
+  "frontMatter.framework.startCommand": "pnpm dev"
+}

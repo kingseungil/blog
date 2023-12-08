@@ -2,13 +2,15 @@
 title: Two Pointers (투 포인터)
 description: 투 포인터 알고리즘에 대해 알아보자.
 summary: 투 포인터 알고리즘
-published: '2023-08-28T00:00:00.000+08:00'
-updated: '2023-08-28T21:00:00.000+08:00'
+published: 2023-08-28T00:00:00.000+08:00
+updated: 2023-08-28T21:00:00.000+08:00
 tags:
-  - [two-pointers, 투 포인터]
+  - - two-pointers
+    - 투 포인터
 series_title: (알고리즘) 투 포인터
-series_tag: '알고리즘'
+series_tag: 알고리즘
 cover: https://images.velog.io/images/ho-taek/post/a9c600b5-f7f3-4686-b2b6-0b2b9a457f63/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.png
+lastmod: 2023-12-08T01:54:10.262Z
 ---
 
 ## Two Pointers (투 포인터)
