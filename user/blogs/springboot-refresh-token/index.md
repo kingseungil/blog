@@ -186,10 +186,6 @@ public class TokenService {
         return tokenRepository.findByAccessToken(accessToken)
                               .orElseThrow(() -> new TokenException(EXPIRED_REFRESH_TOKEN));
     }
-
-    public void saveAccessToken(Token token) {
-        tokenRepository.save(token);
-    }
 }
 ```
 
@@ -297,11 +293,7 @@ public class JwtTokenProvider {
         validateRefreshToken(refreshToken);
 
         Authentication authentication = getAuthentication(refreshToken);
-        String newAccessToken = createAccessToken(authentication);
-
-        token.updateAccessToken(newAccessToken);
-        tokenService.saveAccessToken(token);
-        return newAccessToken;
+        return createAccessToken(authentication);
     }
 
 
@@ -379,7 +371,7 @@ public class JwtTokenFilter extends OncePerRequestFilter {
     private static final String[] WHITELIST = {
       "/api/auth/login", // 로그인
       "/api/auth/verify-emailcode", // 이메일 인증
-      "/api/member"     // 회원가입
+      "/api/member/signup"     // 회원가입
     };
     private static final String AUTHORIZATION = "Authorization";
     private static final String BEARER = "Bearer ";
@@ -501,7 +493,7 @@ public class SecurityConfig {
           .authorizeHttpRequests(authorizeRequests -> authorizeRequests
             // 모두 허용
             .requestMatchers(
-              "/api/member", // 회원가입
+              "/api/member/signup", // 회원가입
               "/api/auth/verify-emailcode", // 이메일 인증 코드 확인
               "/api/auth/login" // 로그인
             ).permitAll()
