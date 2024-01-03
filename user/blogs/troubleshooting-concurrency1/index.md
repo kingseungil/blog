@@ -1,5 +1,5 @@
 ---
-title: Springboot 동시성 문제 해결 (Pessimistic Locking)
+title: Springboot 동시성 문제 해결1 (Pessimistic Locking)
 description: Springboot 동시성 문제 해결 (Pessimistic Locking)
 summary: 개인프로젝트를 진행하면서 동시성 문제를 해결하는 방법을 정리해보았습니다.
 published: 2023-12-29T07:55:40.765Z
@@ -7,6 +7,8 @@ updated: 2023-12-29T08:00:24.309Z
 cover: ""
 tags:
   - [Springboot, JPA, Pessimistic Locking, MySQL, Concurrency, Deadlock]
+series_title: Concurrency
+series_tag: 'Springboot 동시성 문제 해결'
 ---
 
 :::info
@@ -83,7 +85,7 @@ __해결한 방법은 똑같아서 좋아요/싫어요 로직을 예시로 설�
 
 ```java
 /// title: 테스트 코드
-@Test
+    @Test
     void addReviewReaction_concurrency() throws InterruptedException {
         System.out.println("=========start==========");
 
@@ -161,12 +163,14 @@ select * from review_reaction where review_id = 3034;
 
 많은 방법이 존재하지만, 여기서는 `Pessimistic Locking(비관적 락)`을 사용했습니다.
 
-### 2-1. Pessimistic Locking
+### 2-1. Pessimistic Locking (비관적 락)
 
 :::info
 `Pessimistic Locking`이란?
 
 데이터를 사용하는 동안 다른 사용자가 해당 데이터를 변경하지 못하도록 데이터에 락을 거는 방법입니다.
+
+`DB 레벨에서 락을 걸어주기 때문에, tx가 많이 발생하는 경우 성능이 저하될 수 있습니다.`
 
 - `PESSIMISTIC_READ`: 락이 걸린 데이터를 다른 사용자가 읽을 수 있지만, 수정/삭제할 수는 없음
 - `PESSIMISTIC_WRITE`: 락이 걸린 데이터를 다른 사용자가 읽을 수 없고, 수정/삭제도 할 수 없음
@@ -219,8 +223,8 @@ JPA에서는 `@Lock` 어노테이션을 사용하여 락을 걸 수 있습니다
 ![Alt text](image-3.png)
 ![Alt text](image-4.png)
 
-## 3. 마치며
+## 마치며
 
-처음으로 동시성 문제를 접해봤는데, DB에서 락을 걸어주는 방법으로 해결할 수 있었습니다.
+`Pessimistic Locking`을 사용하여 동시성 문제를 해결했지만, DB 레벨에서 락을 거는 방법이기 때문에 성능이 저하될 수 있습니다.
 
-이외에도 다양한 방법들이 존재하는 것 같은데 프로젝트 후 시간이 남는다면 다른 방법들로 동시성 문제를 해결할 예정입니다. (Optimistic Locking, Redis를 활용한 분산 락 등)
+또한 실무에서는 잘 사용하지 않는다하고, 서비스 레이어에서 락을 거는 방법을 이용한다는데 [다음 글](https://k-devlog.vercel.app/troubleshooting-concurrency2)에서 Redis를 활용한 분산 락을 구현해보겠습니다.
