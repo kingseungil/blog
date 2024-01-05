@@ -276,7 +276,7 @@ figure figcaption {
   }
 
   .inline-code-block {
-    --at-apply: 'mx1 px2 py1 rounded-lg whitespace-normal';
+    --at-apply: 'px2 py1 rounded-lg whitespace-normal';
     background-color: var(--qwer-bg-color);
     &:hover {
       background-color: var(--qwer-hover-bg-color);
