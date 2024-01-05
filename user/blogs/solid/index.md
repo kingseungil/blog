@@ -7,6 +7,8 @@ updated: '2023-09-12T21:00:00.000+08:00'
 tags:
   - [solid, 객체지향]
 cover: https://images.velog.io/images/haero_kim/post/169ef81a-0c8c-4241-a73a-135d5b67ffea/1_XOMTPWTpDLypkp079p9XXg.png
+series_title: SOLID 원칙
+series_tag: Study
 ---
 
 ## 객체지향 설계 원칙 (SOLID)

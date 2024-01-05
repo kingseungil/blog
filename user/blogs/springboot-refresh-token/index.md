@@ -7,6 +7,8 @@ updated: 2023-12-21T08:00:24.309Z
 cover: ""
 tags:
   - [Springboot, JWT, Access Token, Refresh Token, Redis]
+series_title: JWT Token
+series_tag: 'Springboot'
 ---
 
 # 스프링부트 로그인 인증 구현하기

@@ -7,6 +7,8 @@ updated: '2023-10-21T21:00:00.000+08:00'
 tags:
   - [spring, transaction]
 cover: https://img1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/bkFM/image/P7TmdIvrj8vGorCzoHl5UnKzN74.jpg
+series_title: Transaction
+series_tag: 'Springboot'
 ---
 
 ## Spring Transaction

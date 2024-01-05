@@ -7,6 +7,8 @@ updated: '2023-07-28T21:00:00.000+08:00'
 tags:
   - [트랜잭션, ACID]
 cover: https://hanamon.kr/codestates-til-%ED%95%AD%ED%95%B4%EC%9D%BC%EC%A7%80-54%EC%9D%BC%EC%B0%A8/acid-%E1%84%89%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A5%E1%86%BC/
+series_title: Transaction & ACID
+series_tag: Database
 ---
 
 ## 트랜잭션(Transaction)?

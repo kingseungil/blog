@@ -8,7 +8,7 @@ cover: ""
 tags:
   - [Springboot, JPA, Pessimistic Locking, MySQL, Concurrency, Deadlock]
 series_title: Concurrency
-series_tag: 'Springboot 동시성 문제 해결'
+series_tag: 'Springboot'
 ---
 
 :::info

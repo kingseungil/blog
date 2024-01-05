@@ -7,6 +7,8 @@ updated: '2023-07-27T21:00:00.000+08:00'
 tags:
    - [restful, rest]
 cover: https://velog.velcdn.com/images/goyo/post/5c75ac85-f540-4727-b953-a8dce123a1a7/image.svg
+series_title: Restful
+series_tag: Study
 ---
 
 `REST` : REpresentational State Transfer

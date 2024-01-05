@@ -7,6 +7,8 @@ updated: '2023-07-28T21:00:00.000+08:00'
 tags:
   - [JWT, JSON Web Token]
 cover: https://d2xc1tuir9mfs4.cloudfront.net/upload/post/ef2e831b-607e-435f-a053-820d7f9282e6.png
+series_title: JWT(JSON Web Token)
+series_tag: Study
 ---
 ## JWT란?
 
