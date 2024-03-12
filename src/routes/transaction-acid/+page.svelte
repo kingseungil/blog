@@ -76,6 +76,25 @@
       여유 커넥션의 개수는 줄어들게 된다. 그러다 어느 순간에는 각 단위 프로그램에서 커넥션을 가져가기 위해 기다려야 하는
       상황이 발생할 수도 있는 것이다.
     </p>
+    <h3 id=""><a href="#">트랜잭션 격리수준</a></h3>
+    <ul>
+      <li>
+        <strong>Read Uncommitted</strong>
+        : 다른 트랜잭션에서 커밋되지 않은 내용도 참조할 수 있다.
+      </li>
+      <li>
+        <strong>Read Committed</strong>
+        : 다른 트랜잭션에서 커밋된 내용만 참조할 수 있다.
+      </li>
+      <li>
+        <strong>Repeatable Read</strong>
+        : 트랜잭션에 진입하기 이전에 커밋된 내용만 참조할 수 있다.
+      </li>
+      <li>
+        <strong>Serializable</strong>
+        : 트랜잭션에 진입하면 락을 걸어 다른 트랜잭션이 접근하지 못하도록 한다. (성능 매우 떨어짐)
+      </li>
+    </ul>
     <h2 id="acid"><a href="#acid">ACID</a></h2>
     <p>
       <strong>ACID</strong>

@@ -111,11 +111,11 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
     name: 'About',
     url: '/about',
   },
-  // {
-  //   name: 'Portfolio',
-  //   url: 'https://kingseungil.github.io/portfolio/',
-  //   rel: 'external'
-  // },
+  {
+    name: 'Portfolio',
+    url: 'https://www.notion.so/kingseungil/04fbd42f3925407cb56f2680974e4b4d',
+    rel: 'external'
+  }
   // {
   //   name: 'Get QWER 🚀',
   //   url: 'https://github.com/kwchang0831/svelte-QWER',
@@ -130,11 +130,11 @@ export const mobilenavConfig: DD.Nav = {
       name: 'About',
       url: '/about',
     },
-    // {
-    //   name: 'Portfolio',
-    //   url: 'https://kingseungil.github.io/portfolio/',
-    //   rel: 'external'
-    // },
+    {
+      name: 'Portfolio',
+      url: 'https://www.notion.so/kingseungil/04fbd42f3925407cb56f2680974e4b4d',
+      rel: 'external'
+    }
     // {
     //   name: 'Get QWER 🚀',
     //   url: 'https://github.com/kwchang0831/svelte-QWER',

@@ -342,6 +342,32 @@
         <ImgZoom src="/query-performance-improve/image-5.png" alt="alt text"></ImgZoom>
       </li>
     </ul>
+    <p>
+      또한 <code class="inline-code-block">Jmeter</code>
+      로 부하테스르를 간략히 진행해봤습니다.
+    </p>
+    <ul>
+      <li>
+        설정
+        <ImgZoom src="/query-performance-improve/image-6.png" alt="/query-performance-improve/image-6.png"></ImgZoom>
+      </li>
+      <li>
+        처음 (인덱스 설정 전)
+        <ImgZoom src="/query-performance-improve/image-7.png" alt="/query-performance-improve/image-7.png"></ImgZoom>
+      </li>
+      <li>
+        최종 (인덱스 설정 후)
+        <ImgZoom src="/query-performance-improve/image-8.png" alt="/query-performance-improve/image-8.png"></ImgZoom>
+      </li>
+    </ul>
+    <p>
+      인덱스 설정 전에는 모든 요청을 처리하지 못하고 nginx에서 502 Bad Gateway 에러가 발생했지만, 인덱스 설정 후에는
+      모든 요청을 처리할 수 있었습니다.
+    </p>
+    <p>
+      또한 <code class="inline-code-block">tps</code>
+       (초당 처리량)에서도 엄청난 차이를 보였습니다.
+    </p>
     <h1 id=""><a href="#">마무리</a></h1>
     <p>쿼리 성능을 향상시키기 위해 인덱스를 생성하고 서브쿼리를 사용하는 방법에 대해 알아보았습니다.</p>
     <p>
