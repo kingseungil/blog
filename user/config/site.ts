@@ -113,7 +113,7 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
   },
   {
     name: 'Portfolio',
-    url: 'https://www.notion.so/kingseungil/04fbd42f3925407cb56f2680974e4b4d',
+    url: 'https://kingseungil.notion.site/04fbd42f3925407cb56f2680974e4b4d',
     rel: 'external'
   }
   // {
@@ -132,7 +132,7 @@ export const mobilenavConfig: DD.Nav = {
     },
     {
       name: 'Portfolio',
-      url: 'https://www.notion.so/kingseungil/04fbd42f3925407cb56f2680974e4b4d',
+      url: 'https://kingseungil.notion.site/04fbd42f3925407cb56f2680974e4b4d',
       rel: 'external'
     }
     // {
