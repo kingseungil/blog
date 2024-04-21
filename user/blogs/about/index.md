@@ -10,10 +10,7 @@ options:
 ## About Me 👨‍💻
 
 안녕하세요 <span class="wave">👋</span>  
-저는 백엔드 공부를 하고 있는 예비 개발자입니다.
-
-현재는 `Java`, `Spring Boot`를 공부하고 있습니다!
-
+저는 0년차 웹 개발자입니다!
 
 ## Tech Stack I'm familiar with
 
@@ -31,4 +28,5 @@ options:
 - `전기공사기사` - 한국산업인력공단
 - `SQLD` - 한국데이터산업진흥원
 - `컴퓨터활용능력 1급` - 대한상공회의소
+- ~~`정보처리기사` 공부중..!~~
 

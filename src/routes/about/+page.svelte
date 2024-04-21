@@ -15,13 +15,7 @@
     <p>
       안녕하세요 <span class="wave">👋</span>
       <br />
-      저는 백엔드 공부를 하고 있는 예비 개발자입니다.
-    </p>
-    <p>
-      현재는 <code class="inline-code-block">Java</code>
-      ,
-      <code class="inline-code-block">Spring Boot</code>
-      를 공부하고 있습니다!
+      저는 0년차 웹 개발자입니다!
     </p>
     <h2 id="tech-stack-i-and-39-m-familiar-with">
       <a href="#tech-stack-i-and-39-m-familiar-with">Tech Stack I&#39;m familiar with</a>
@@ -50,6 +44,12 @@
       <li>
         <code class="inline-code-block">컴퓨터활용능력 1급</code>
          - 대한상공회의소
+      </li>
+      <li>
+        <del>
+          <code class="inline-code-block">정보처리기사</code>
+           공부중..!
+        </del>
       </li>
     </ul>
   </article>
