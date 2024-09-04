@@ -10,7 +10,7 @@ options:
 ## About Me 👨‍💻
 
 안녕하세요 <span class="wave">👋</span>  
-저는 0년차 웹 개발자입니다!
+저는 1년차 웹 개발자입니다!
 
 ## Tech Stack I'm familiar with
 

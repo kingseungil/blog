@@ -10,6 +10,8 @@ tags:
   - [Springboot, Java, 제로베이스부트캠프, 백엔드취업스쿨, 제로베이스스쿨, 제로베이스후기]
 series_title: 제로베이스 백엔드 스쿨
 series_tag: '제로베이스'
+options:
+   - unlisted
 ---
 
 # 들어가기 앞서..
