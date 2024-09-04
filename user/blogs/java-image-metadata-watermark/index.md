@@ -6,7 +6,7 @@ published: '2024-09-04T15:40:00.000+08:00'
 updated: '2024-09-04T15:40:00.000+08:00'
 tags:
   - [Java, Metadata, Watermark]
-series_title: Study
+series_title: Image Metadata, Resizing, Watermark
 series_tag: 'Study'
 ---
 
